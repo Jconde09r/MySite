@@ -19,6 +19,7 @@ h2 {
   font-size: 2.5rem;
   color: #FF97C1;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -40,7 +41,22 @@ hr {
   border-top-style: dotted;
   border-color: grey;
   border-width: 7px;
-  width: 5%;
+  width: 4rem;
+  margin: 6.25rem auto;
+  clear: both;
+}
+
+button {
+  background-color: #FF97C1;
+  border: none;
+  padding: 10px 18px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: white;
+  border-radius: 12px;
 }
 
 .top-container {
@@ -60,20 +76,6 @@ hr {
 .pro {
   text-decoration: underline;
 }
-
-.laptop {
-  width: 30%;
-  float: left;
-  margin-right: 30px;
-}
-
-.chef {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-  position: relative;
-}
-
 .top-cloud {
   position: absolute;
   right: 18.75rem;
@@ -82,12 +84,12 @@ hr {
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  left: 15.625rem;
+  bottom: 18.75rem;
 }
 
 .mountain {
-  width: 50%;
+  width: 45.3rem;
 }
 
 .header {}
@@ -97,23 +99,46 @@ hr {
 }
 
 .middle-container {
+  margin: 100px 0;
+}
+
+.intro {
+  width: 30%;
   margin: auto;
 }
 
-.skills {}
+.skills {
+  width: 60%;
+  margin: 100px auto;
+}
 
 .skill-row-a {
-  width: 50%;
-  margin: 100px auto;
   text-align: left;
+  margin: 100px auto;
 }
 
 .skill-row-b {
-  width: 50%;
-  margin: 100px auto;
   text-align: left;
+  margin: 100px auto;
+  padding-bottom: 20px
+}
+.laptop {
+  width: 18.75rem;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
 }
 
+.chef {
+  width: 13rem;
+  height: 180px;
+  float: right;
+  margin-left: 30px;
+
+}
+.contact-me {
+  margin: 100px auto;
+}
 .bottom-container {
   background-color: #FF97C1;
   margin: 0;
@@ -121,20 +146,6 @@ hr {
   padding-top: 4rem;
   padding-bottom: 2rem;
 }
-
-button {
-  background-color: #FF97C1;
-  border: none;
-  padding: 10px 18px;
-  text-align: center;
-  display: inline-block;
-  font-size: 1.4rem;
-  margin: 4px 2px;
-  cursor: pointer;
-  color: white;
-  border-radius: 12px;
-}
-
 .btn {
   color: white;
   font-weight: bold;
