@@ -47,18 +47,35 @@ hr {
 }
 
 button {
-  background-color: #FF97C1;
   border: none;
-  padding: 10px 18px;
   text-align: center;
   display: inline-block;
   font-size: 1.4rem;
   margin: 4px 2px;
   cursor: pointer;
-  color: white;
   border-radius: 12px;
+  background: #3acacf;
+  background-image: -webkit-linear-gradient(top, #3acacf, #11999e);
+  background-image: -moz-linear-gradient(top, #3acacf, #11999e);
+  background-image: -ms-linear-gradient(top, #3acacf, #11999e);
+  background-image: -o-linear-gradient(top, #3acacf, #11999e);
+  background-image: linear-gradient(to bottom, #3acacf, #11999e);
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
+button:hover {
+  background: #ff9ccc;
+  background-image: -webkit-linear-gradient(top, #ff9ccc, #eb81ad);
+  background-image: -moz-linear-gradient(top, #ff9ccc, #eb81ad);
+  background-image: -ms-linear-gradient(top, #ff9ccc, #eb81ad);
+  background-image: -o-linear-gradient(top, #ff9ccc, #eb81ad);
+  background-image: linear-gradient(to bottom, #ff9ccc, #eb81ad);
+  text-decoration: none;
+}
 .top-container {
   position: relative;
   padding-top: 100px;
@@ -84,7 +101,7 @@ button {
 
 .bottom-cloud {
   position: absolute;
-  left: 13.625rem;
+  left: 14.625rem;
   bottom: 18.75rem;
 }
 
