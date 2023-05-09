@@ -107,6 +107,7 @@ button:hover {
 
 .mountain {
   width: 45.3rem;
+  vertical-align: bottom;
 }
 
 .header {}
